@@ -32,7 +32,7 @@ class Nav extends React.Component {
       function () {
         console.log(this.props.navigate);
         console.log(url);
-        this.props.navigate(url); // code breaks here
+        //this.props.navigate(url);
 
         //this.history.push(url); // I used to do this
       }
