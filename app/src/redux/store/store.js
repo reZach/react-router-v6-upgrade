@@ -9,11 +9,9 @@ import {
   createHashHistory,
   createBrowserHistory 
 } from "history";
-//import { routerMiddleware } from "connected-react-router";
 import {
   createReduxHistoryContext
 } from "redux-first-history";
-//import rootReducer from "../reducers/rootReducer";
 
 const {
   routerMiddleware,
@@ -24,7 +22,6 @@ const {
 });
 
 export const store = configureStore({
-  //reducer: rootReducer(history),
   reducer: combineReducers({
     router: routerReducer
   }),

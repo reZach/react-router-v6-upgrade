@@ -1,5 +1,4 @@
 import React from "react";
-//import { ConnectedRouter } from "connected-react-router";
 import { HistoryRouter } from "redux-first-history/rr6";
 import { Provider } from "react-redux";
 import AppRoutes from "Core/routes";

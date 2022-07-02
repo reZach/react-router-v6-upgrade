@@ -1,0 +1,4 @@
+1. `npm i`
+2. `npm run dev`
+3. Click "About page"
+4. Notice "Cannot read properties of undefined (reading 'pathname')" error

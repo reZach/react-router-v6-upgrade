@@ -6,8 +6,7 @@ class Nav extends React.Component {
   constructor(props) {
     super(props);
 
-    //this.history = props.history;
-    //this.navigate = useNavigate();
+    //this.history = props.history; // I used to do this    
     this.state = {
       mobileMenuActive: false
     };
@@ -33,9 +32,9 @@ class Nav extends React.Component {
       function () {
         console.log(this.props.navigate);
         console.log(url);
-        this.props.navigate(url);
+        this.props.navigate(url); // code breaks here
 
-        //this.history.push(url);
+        //this.history.push(url); // I used to do this
       }
     );
   }  
